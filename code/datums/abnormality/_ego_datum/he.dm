@@ -261,3 +261,19 @@
 /datum/ego_datum/weapon/fluid_sac
 	item_path = /obj/item/ego_weapon/fluid_sac
 	cost = 35
+
+
+//For Your Eyes Only - Window To The World & Classified
+/*
+/datum/ego_datum/armor/Window_To_The_World
+    item_path = /obj/item/clothing/suit/armor/ego_gear/Window_To_The_World
+	cost = 35
+
+/datum/ego_datum/weapon/Window_To_The_World // - Hand-Cannon
+   item_path = /obj/item/ego_weapon/Window_To_The_World
+   cost = 35
+
+/datum/ego_datum/weapon/Classified // - Pistol
+   item_path = /obj/item/ego_weapon/Classified
+   cost = 35
+*/
