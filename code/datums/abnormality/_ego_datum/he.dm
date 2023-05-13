@@ -271,14 +271,19 @@
 	item_path = /obj/item/ego_weapon/sanguine
 	cost = 35
 
-//For Your Eyes Only - Window to the World
+//For Your Eyes Only - Window to the World & Classified
 /datum/ego_datum/armor/window
 	item_path = /obj/item/clothing/suit/armor/ego_gear/window
 	cost = 35
 
 /*/datum/ego_datum/weapon/window
 	item_path = /obj/item/ego_weapon/window
-	cost = 35*/
+	cost = 35
+
+/datum/ego_datum/weapon/Classified // - Pistol
+   item_path = /obj/item/ego_weapon/classified
+   cost = 35
+*/
 
 //Jackalope - Jackrabbit
 /datum/ego_datum/armor/jackrabbit
