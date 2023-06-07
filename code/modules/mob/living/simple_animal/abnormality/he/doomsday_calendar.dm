@@ -39,7 +39,7 @@
 		/datum/ego_datum/armor/impending_day
 		)
 	gift_type =  /datum/ego_gifts/impending_day
-	abnormality_origin = "Limbus Company"
+	abnormality_origin = ABNORMALITY_ORIGIN_LIMBUS
 
 	var/player_count
 	var/other_works_maximum
@@ -337,7 +337,7 @@
 	var/can_act = TRUE
 
 /mob/living/simple_animal/hostile/doomsday_doll/Initialize()
-	..()
+	. = ..()
 	base_pixel_x = rand(-6,6)
 	pixel_x = base_pixel_x
 	base_pixel_y = rand(-6,6)
